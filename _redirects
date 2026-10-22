@@ -1,0 +1,15 @@
+# Old GoDaddy paths that changed. Same-path pages ( /evaluations, /egift-card, /contact-us, and the rest ) already resolve.
+/club-fitting-1    /club-fitting    301
+/club-fitting-1/   /club-fitting    301
+/instructors-1     /instructors     301
+/instructors-1/    /instructors     301
+
+# The online store was disabled. Every /ols/ URL served the homepage and had no product content.
+/ols/products                        /    301
+/ols/products/                       /    301
+/ols/products/go-golf-w-jesus-hat    /    301
+/ols/products/arccos-smart-sensors   /    301
+/ols/categories/apparell             /    301
+/ols/categories/hats                 /    301
+/ols/categories/range-finder         /    301
+/ols/*                               /    301
