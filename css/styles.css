@@ -1029,23 +1029,6 @@ a:hover {
   background: #000;
 }
 
-.logo-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0 0;
-}
-
-.logo-row img {
-  width: auto;
-  max-height: 84px;
-  max-width: 220px;
-  object-fit: contain;
-}
-
 .visit-photo {
   width: 100%;
   max-height: 480px;
