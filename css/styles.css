@@ -37,9 +37,6 @@
   --gray: #5e5e5e;
   --line: #e2e2e2;
   --white: #fff;
-  --owner-bg: #fff4cc;
-  --owner-border: #8a5a00;
-  --owner-text: #3d2900;
   --serif: "Playfair Display", Georgia, serif;
   --sans: "Open Sans", arial, sans-serif;
   --wrap: 1120px;
@@ -816,10 +813,6 @@ a:hover {
   color: var(--navy);
 }
 
-.hours td.owner-note {
-  font-size: 0.95rem;
-}
-
 .partners {
   display: flex;
   flex-wrap: wrap;
@@ -864,50 +857,6 @@ a:hover {
 .prose p,
 .narrow {
   max-width: 72ch;
-}
-
-.owner-banner {
-  background: var(--owner-bg);
-  color: var(--owner-text);
-  border-bottom: 4px solid var(--owner-border);
-  padding: 1rem 0;
-  font-weight: 700;
-}
-
-.owner-banner p {
-  margin: 0;
-}
-
-.owner-banner .tier-label {
-  color: var(--owner-text);
-  margin-top: 1rem;
-}
-
-.owner-banner .slot {
-  margin: 0.5rem 0 0;
-}
-
-.owner-note,
-.slot {
-  background: var(--owner-bg);
-  color: var(--owner-text);
-  border: 3px solid var(--owner-border);
-  padding: 0.85rem 1rem;
-  margin: 0.75rem 0;
-  font-weight: 700;
-}
-
-.site-footer .owner-note {
-  color: var(--owner-text);
-}
-
-.photo-needed {
-  background: var(--tint);
-  color: var(--navy);
-  border: 2px dashed var(--blue-deeper);
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin: 1rem 0;
 }
 
 .content-photo {
