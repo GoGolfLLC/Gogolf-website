@@ -717,13 +717,17 @@ a:hover {
   align-items: center;
   justify-content: center;
   min-height: 72px;
+  min-width: 140px;
 }
 
 .partners img {
+  display: block;
+  height: 64px;
   width: auto;
-  max-width: 170px;
-  max-height: 72px;
+  max-width: 210px;
+  max-height: 64px;
   object-fit: contain;
+  flex: 0 0 auto;
 }
 
 .page-head {
