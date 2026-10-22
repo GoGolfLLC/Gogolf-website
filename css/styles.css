@@ -474,6 +474,77 @@ a:hover {
   color: #d7ecfb;
 }
 
+.eval-cards {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.eval-cards > li {
+  display: flex;
+  min-width: 0;
+}
+
+.eval-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: var(--navy);
+  color: var(--white);
+  padding: 1.35rem 1.25rem 1.4rem;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+
+.eval-card h3,
+.eval-card p {
+  color: var(--white);
+}
+
+.eval-card h3 {
+  font-size: clamp(1.45rem, 2.4vw, 1.85rem);
+  margin: 0 0 0.55rem;
+}
+
+.eval-card .price {
+  color: var(--white);
+  font-size: clamp(2.4rem, 5vw, 3.25rem);
+  margin: 0 0 0.7rem;
+}
+
+.eval-card .eval-book {
+  margin-top: auto;
+  margin-bottom: 0;
+  padding-top: 0.35rem;
+}
+
+.eval-card .btn {
+  background: var(--white);
+  color: var(--navy);
+}
+
+.eval-card .btn:hover {
+  background: var(--tint);
+  color: var(--navy);
+}
+
+.eval-more {
+  margin: 0.9rem 0 0;
+}
+
+@media (min-width: 800px) {
+  .eval-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .eval-card {
+    padding: 1.6rem 1.5rem 1.5rem;
+  }
+}
+
 @media (min-width: 800px) {
   .feature {
     grid-template-columns: 1fr auto;

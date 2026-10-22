@@ -56,7 +56,7 @@ Change the sentence you see on the site. Leave the tags (`<p>`, `<h1>`, `<a>`, a
 
 The menu and the footer are copied at the top and bottom of every HTML file. A phone number, a link, or a menu label has to be updated in each file or the pages will disagree.
 
-Hours appear in the footer of every page, and again on Home and Contact Us. Friday is a yellow note until one time is chosen. After that, replace the note with the time in every hours table. The open questions are listed in `CONTENT-TODO.md`.
+Hours appear in the footer of every page, and again on Home and Contact Us. Friday is 11:00 am – 08:00 pm. Change a day in every hours table or the pages will disagree. Open questions are listed in `CONTENT-TODO.md`.
 
 The copyright line says 2026. Change the year in the footer of every page when the year changes.
 
@@ -116,7 +116,7 @@ If you later want a form, that is a separate decision. It needs a form host and 
 - Typos fixed: "schedule your next club fitting" and "$100 upcharge" on Rich's lesson terms. The word Simulator was already spelled correctly on the site. The Acuity package name "Simuator" was not copied.
 - The Fitness page no longer includes the leftover template line about Go Golf being founded in 2005 and selling equipment worldwide.
 - The Home "Upcoming Events" card was removed. It pointed at `#` and there is no events page.
-- The old "Book Your Evaluation!" popup was not rebuilt. The bar at the top of every page links to Evaluations, and the $225 evaluation with Rich Stolz is on Home and on Evaluations.
+- The old "Book Your Evaluation!" popup was not rebuilt. The bar at the top of every page says "Click here to book your golf evaluation" and links to Evaluations. Home shows Filindo Colace's evaluation ($260) and Rich Stolz's evaluation ($225) side by side. Both cards use the description and the Acuity booking link from the Evaluations page. On a narrow screen Filindo's card is first. Both evaluations are also on Evaluations.
 - A few prices were printed without a dollar sign on the old site (playing lessons 300, 500, and 100; simulator packages 240, 360, and 600; corporate tiers 500, 1000, 2000, and 3000). They are shown with a `$` here. The amounts are unchanged.
 - Simulator prices are the pre-tax amounts from the old site. Memberships and packages still say tax is not included. Acuity shows tax-inclusive totals. Those Acuity totals were not copied onto the page.
 - Google Analytics (`G-S8R1ERQHES`) and the Facebook pixel (`216850965850346`) were not added.

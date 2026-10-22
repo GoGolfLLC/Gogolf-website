@@ -4,14 +4,6 @@ Nothing in this list was guessed. Each item is also marked on the site in a yell
 
 When a decision is made, edit the page listed here, remove that yellow note, and delete the item from this file.
 
-## Friday hours
-
-- Pages: Home (`/`), Contact Us (`/contact-us`), and the hours block in the footer of every page
-- Home publishes: Friday 11:00 am – 08:00 pm
-- Contact Us publishes: Friday 08:00 am – 08:00 pm
-- Monday through Thursday, Saturday, and Sunday match on both pages
-- The site does not pick one Friday time
-
 ## Lauren's surname
 
 - Pages: Evaluations (`/evaluations`). She is also named Lauren Furman on 2029 PGA Championship (`/2029-pga-championship`)
