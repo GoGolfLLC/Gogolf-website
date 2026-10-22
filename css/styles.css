@@ -975,6 +975,10 @@ a:hover {
   line-height: 1.35;
 }
 
+.notice + .notice {
+  margin-top: 0.75rem;
+}
+
 .media-grid {
   display: grid;
   gap: 1rem;
