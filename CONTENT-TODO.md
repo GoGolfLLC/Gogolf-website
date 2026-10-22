@@ -4,6 +4,13 @@ Nothing in this list was guessed. Each item is also marked on the site in a yell
 
 When a decision is made, edit the page listed here, remove that yellow note, and delete the item from this file.
 
+## Lauren Furman's photo
+
+- Page: Instructors (`/instructors`), in her entry
+- No photo of Lauren is in the site images
+- The Soteria Fitness logo from her Fitness page (`images/soteria.png`) is shown in that spot
+- Replace it with a photo of Lauren Furman when one is provided
+
 ## Holiday Hours
 
 - Page: Holiday Hours (`/holiday-hours`), linked from the footer
