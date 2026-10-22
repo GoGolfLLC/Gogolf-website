@@ -15,7 +15,7 @@ When a decision is made, edit the page listed here and delete the item from this
 
 - Page: `/2029-pga-championship`
 - Decide whether to keep or update the page
-- Statistics are labeled "Statistics as of 8/1/2025"
-- The schedule is an 8.7 second screen recording of 2026 events. The poster shows events between April 20 and July 27, 2026: Radnor Golf Foundation TPD Championship, Conestoga Classic, Delaware Valley Open, Match Play Championship, Pro-Assistant Pro Championship, Pro-Scratch Championship, William Hyndman III Memorial Classic
+- The 2026 tournament schedule and the statistics dated 8/1/2025 were removed from the page
+- A 2026 Results table lists Date, Event, Teams, and Finish
 - Sponsors: Coming Soon
 - The old meta description was only "personal training". The new description uses the goal sentence already on the page
