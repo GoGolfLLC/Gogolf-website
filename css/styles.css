@@ -752,6 +752,52 @@ a:hover {
   font-weight: 700;
 }
 
+.inquiry {
+  display: grid;
+  gap: 0.95rem;
+  margin: 1.25rem 0 0;
+}
+
+.inquiry label {
+  display: block;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.35rem;
+}
+
+.inquiry input[type="text"],
+.inquiry input[type="email"],
+.inquiry input[type="tel"],
+.inquiry textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  color: var(--text);
+  background: var(--white);
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  padding: 0.75rem 0.85rem;
+}
+
+.inquiry textarea {
+  min-height: 9rem;
+  resize: vertical;
+}
+
+.inquiry button.btn {
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  justify-self: start;
+}
+
+.botcheck {
+  display: none;
+}
+
 .hours {
   width: 100%;
   border-collapse: collapse;

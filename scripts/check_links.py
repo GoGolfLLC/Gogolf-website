@@ -57,7 +57,6 @@ FORBIDDEN_SNIPPETS = [
     "poynt.godaddy",
     "tel:8564810889",
     "Copyright © 2017",
-    "<form",
     "Simuator",
 ]
 
@@ -114,6 +113,16 @@ def main():
         for snippet in FORBIDDEN_SNIPPETS:
             if snippet in text:
                 errors.append(f"{path.relative_to(ROOT)} contains forbidden {snippet!r}")
+        form_count = text.lower().count("<form")
+        if form_count:
+            allowed_form = (
+                path.as_posix().endswith("contact-us/index.html")
+                and form_count == 1
+                and 'action="https://api.web3forms.com/submit"' in text
+                and 'method="POST"' in text
+            )
+            if not allowed_form:
+                errors.append(f"{path.relative_to(ROOT)} has a form that is not the Web3Forms inquiry")
         parser = Collector()
         parser.feed(text)
         for raw in parser.hrefs + parser.srcs + parser.posters:

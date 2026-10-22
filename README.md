@@ -104,9 +104,9 @@ Junior Golf (`images/junior-golf.jpg`):
 - Photographer: Ali Danacı
 - License: Pexels License, https://www.pexels.com/license/ — free to use, including commercially. Attribution is not required.
 
-## Contact, and why there is no form
+## Contact
 
-The GoDaddy contact forms were not copied. They only worked inside GoDaddy, and this site is not wired to another form service.
+The GoDaddy contact forms were not copied. Contact Us has one plain HTML form that posts to Web3Forms. Web3Forms sends the message to Filindo@gogolfsj.com. The access key is in the form. It is a public key. The redirect is `https://gogolfsj.com/thank-you/` because Web3Forms requires a full `https://` address. The thank-you page on this site is `/thank-you/`. DNS and mailbox settings are unchanged.
 
 Home, Contact Us, and the footer show the ways to reach the studio:
 
@@ -117,7 +117,7 @@ Home, Contact Us, and the footer show the ways to reach the studio:
 
 Rich@gogolfsj.com and lauren@gogolfsj.com are linked on the pages that already showed them.
 
-If you later want a form, that is a separate decision. It needs a form host and a privacy note. It is not hooked up now.
+Call, text, and email stay on the Contact Us page next to the form.
 
 ## Other decisions
 

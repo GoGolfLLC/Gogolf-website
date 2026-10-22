@@ -66,6 +66,30 @@
             <li class="fine">(Please allow 24 hrs. for a call back when calling)</li>
             <li>Text: <a href="sms:8564810889">(856) 481-0889</a></li>
           </ul>
+          <form class="inquiry" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="d3996416-0401-4f02-b61e-a12fb7884d0d">
+            <input type="hidden" name="subject" value="New inquiry from gogolfsj.com">
+            <input type="hidden" name="from_name" value="Go Golf website">
+            <input type="checkbox" name="botcheck" class="botcheck" tabindex="-1" autocomplete="off">
+            <input type="hidden" name="redirect" value="https://gogolfsj.com/thank-you/">
+            <div>
+              <label for="inquiry-name">Name</label>
+              <input id="inquiry-name" name="name" type="text" required autocomplete="name">
+            </div>
+            <div>
+              <label for="inquiry-email">Email</label>
+              <input id="inquiry-email" name="email" type="email" required autocomplete="email">
+            </div>
+            <div>
+              <label for="inquiry-phone">Phone <span class="fine">(optional)</span></label>
+              <input id="inquiry-phone" name="phone" type="tel" autocomplete="tel">
+            </div>
+            <div>
+              <label for="inquiry-message">Message</label>
+              <textarea id="inquiry-message" name="message" required></textarea>
+            </div>
+            <button class="btn" type="submit">Send</button>
+          </form>
         </div>
         <div class="panel">
           <h2>Hours</h2>
