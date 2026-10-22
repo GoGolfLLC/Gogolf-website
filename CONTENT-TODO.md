@@ -1,8 +1,8 @@
 # Content the owner still needs to confirm
 
-Nothing in this list was guessed. Each item is also marked on the site in a yellow box that starts with `[OWNER TO CONFIRM: ...]`.
+Nothing in this list was guessed. These items are internal. They are not shown on the public pages.
 
-When a decision is made, edit the page listed here, remove that yellow note, and delete the item from this file.
+When a decision is made, edit the page listed here and delete the item from this file.
 
 ## Lauren Furman's photo
 
