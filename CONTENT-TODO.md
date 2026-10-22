@@ -4,15 +4,6 @@ Nothing in this list was guessed. Each item is also marked on the site in a yell
 
 When a decision is made, edit the page listed here, remove that yellow note, and delete the item from this file.
 
-## January 2027 league
-
-- Page: Leagues (`/leagues`)
-- No 2027 start date, price, or signup link exists on the current site
-- The page still on gogolfsj.com advertises the 2026 Winter League: begins January 5th, entry fee $350, tax not included
-- That page's signup was a GoDaddy Payments checkout that will stop working. It was not turned into a button. The old checkout address was `https://poynt.godaddy.com/checkout/bce6cc70-039a-4455-b747-715f7f99071f/Leagues`
-- The new page has a layout ready for the 2027 league. The signup button points at `#signup-link-needed` on the same page. Replace that href with the real signup URL when it exists
-- The format text and the player list are what the current page publishes. The players listed are Adam Castagna, Greg Poda, Greg Miller, Pushkar Vatsavayi, Phil Schlegel, Don Bicking, Filindo Colace, and John Fair
-
 ## Holiday Hours
 
 - Page: Holiday Hours (`/holiday-hours`), linked from the footer

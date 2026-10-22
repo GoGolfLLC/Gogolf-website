@@ -71,7 +71,7 @@ These GoDaddy stock photos were not copied onto the new site, because that licen
 | Old file | Where it was | What to add if you want a picture |
 |---|---|---|
 | `stock-33461bfe8fa6.jpg` | Home, Corporate Memberships card | A photo of a corporate outing or the studio. The card is a navy block until then |
-| `stock-g6b685.jpg` | Junior Golf | A photo of the junior program. The page has a dashed "Photo needed" box |
+| `stock-g6b685.jpg` | Junior Golf | Replaced by `images/junior-golf.jpg`. See the credit below |
 | `stock-051de6e9e3e1.jpg` | Cancellations, page background | Optional. The page is plain on purpose |
 | `stock-34435.jpg` | Holiday Hours, fireworks | Optional. The page has a dashed "Photo needed" box |
 
@@ -94,7 +94,15 @@ These are the same addresses as the GoDaddy site. Do not retype them.
 - Soteria Fitness: `https://www.soteria-fitness.com`
 - Instagram: `https://www.instagram.com/GoGolf_SJ`
 
-The league signup button does not go to a payment page. Its link is `#signup-link-needed`. Replace that with the 2027 signup address when you have one. Do not put the old GoDaddy Payments checkout back. Details are in `CONTENT-TODO.md`.
+The 2027 Winter League sign-up is a Square checkout the owner supplied, titled "2027 Go Golf Cup": `https://square.link/u/N4MWJ485`. The old GoDaddy Payments league checkout is not used.
+
+## Photo credits
+
+Junior Golf (`images/junior-golf.jpg`):
+
+- Source page: https://www.pexels.com/photo/a-boy-playing-gold-10463469/
+- Photographer: Ali Danacı
+- License: Pexels License, https://www.pexels.com/license/ — free to use, including commercially. Attribution is not required.
 
 ## Contact, and why there is no form
 

@@ -864,6 +864,14 @@ a:hover {
   margin: 1rem 0;
 }
 
+.content-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 0 0 1.25rem;
+}
+
 .price-grid {
   display: grid;
   gap: 1rem;
@@ -1000,7 +1008,7 @@ a:hover {
 .fee-grid {
   display: grid;
   gap: 1rem;
-  margin-top: 1rem;
+  margin: 1rem 0 2rem;
 }
 
 .fee-grid h3 {
