@@ -12,14 +12,6 @@ When a decision is made, edit the page listed here, remove that yellow note, and
 - Monday through Thursday, Saturday, and Sunday match on both pages
 - The site does not pick one Friday time
 
-## Filindo Colace evaluation price
-
-- Page: Evaluations (`/evaluations`)
-- This website publishes: $250
-- Acuity publishes: $260.00
-- Rich Stolz's evaluation is $225 on both this website and Acuity
-- Booking link, unchanged: `https://app.acuityscheduling.com/schedule/ca8f92f8/?categories[]=Lessons`
-
 ## Lauren's surname
 
 - Pages: Evaluations (`/evaluations`). She is also named Lauren Furman on 2029 PGA Championship (`/2029-pga-championship`)
