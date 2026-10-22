@@ -96,6 +96,11 @@ These are the same addresses as the GoDaddy site. Do not retype them.
 
 The 2027 Winter League sign-up is a Square checkout the owner supplied, titled "2027 Go Golf Cup": `https://square.link/u/N4MWJ485`. The old GoDaddy Payments league checkout is not used.
 
+Daytime Sim Rental on Simulator Rental uses two Acuity appointments:
+
+- 60 minutes, $40: `https://app.acuityscheduling.com/schedule.php?owner=14209514&appointmentType=99723738`
+- 30 minutes, $20: `https://app.acuityscheduling.com/schedule.php?owner=14209514&appointmentType=99723746`
+
 ## Photo credits
 
 Junior Golf (`images/junior-golf.jpg`):
