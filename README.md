@@ -73,7 +73,7 @@ These GoDaddy stock photos were not copied onto the new site, because that licen
 | `stock-33461bfe8fa6.jpg` | Home, Corporate Memberships card | A photo of a corporate outing or the studio. The card is a navy block until then |
 | `stock-g6b685.jpg` | Junior Golf | Replaced by `images/junior-golf.jpg`. See the credit below |
 | `stock-051de6e9e3e1.jpg` | Cancellations, page background | Optional. The page is plain on purpose |
-| `stock-34435.jpg` | Holiday Hours, fireworks | Optional. The page has a dashed "Photo needed" box |
+| `stock-34435.jpg` | Holiday Hours, fireworks | Not used. The page has no photo |
 
 `img_6427.jpg` is the photo of the Go Golf logo on the wall. It used to sit on the Home "Upcoming Events" card. That card linked nowhere and there is no events page, so the card was removed. The photo is now next to the contact details on Home.
 

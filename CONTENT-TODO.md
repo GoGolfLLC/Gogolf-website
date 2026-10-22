@@ -11,14 +11,6 @@ When a decision is made, edit the page listed here, remove that yellow note, and
 - The Soteria Fitness logo from her Fitness page (`images/soteria.png`) is shown in that spot
 - Replace it with a photo of Lauren Furman when one is provided
 
-## Holiday Hours
-
-- Page: Holiday Hours (`/holiday-hours`), linked from the footer
-- Decide whether to keep, replace, or remove this page
-- Last published notice: "Have a happy and safe 4th of july!!" / July 1st – July 5th / CLOSED FOR FAMILY VACATION / Will re-open on July 8th at 11:00am
-- The old page description says those dates were in 2023
-- That notice is shown under the yellow warning. It is not presented as a confirmed current closure
-
 ## 2029 PGA Championship page
 
 - Page: `/2029-pga-championship`
