@@ -4,14 +4,6 @@ Nothing in this list was guessed. Each item is also marked on the site in a yell
 
 When a decision is made, edit the page listed here, remove that yellow note, and delete the item from this file.
 
-## Lauren's surname
-
-- Pages: Evaluations (`/evaluations`). She is also named Lauren Furman on 2029 PGA Championship (`/2029-pga-championship`)
-- This website publishes: Lauren Furman
-- Acuity publishes: Lauren Fiske, on the appointment "1 Hour Fitness Assessment with Lauren Fiske"
-- The price is $80 in both places
-- Booking link, unchanged: `https://app.acuityscheduling.com/schedule/b61debab/appointment/75999154/calendar/11770564`
-
 ## January 2027 league
 
 - Page: Leagues (`/leagues`)
