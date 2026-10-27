@@ -52,7 +52,7 @@
         <h1>Simulator Rental</h1>
         <div class="btn-row">
           <a class="btn" href="https://app.acuityscheduling.com/schedule.php?owner=14209514&amp;appointmentType=category:Simulator%20Rental" target="_blank" rel="noopener noreferrer">RESERVE YOUR SIMULATOR TODAY!<span class="sr-only"> (opens in a new tab)</span></a>
-          <a class="btn" href="https://app.acuityscheduling.com/catalog.php?owner=14209514&amp;category=Subscription" target="_blank" rel="noopener noreferrer">purchase our monthly simulator subscription!<span class="sr-only"> (opens in a new tab)</span></a>
+          <a class="btn" href="#membership-request">Request a monthly simulator membership</a>
         </div>
       </div>
     </header>
@@ -93,7 +93,18 @@
         </article>
         </div>
         <h2>Monthly Simulator Memberships</h2>
-        <p class="terms">3 - Month minimum; 10% off additional sim rental; price reflects per month; tax not included; 2hrs max per day; Hours must be used within the 30 days of your monthly cycle; no Rollover; Must give 2wk notice to cancel.</p>
+        <div class="membership-offer" data-offer-ends="2026-12-01T00:00:00-05:00">
+          <p class="lead">Join now: pay 3 months, get your 4th month free. Offer ends November 30.</p>
+          <p class="fine">New members only. Sign up by November 30, 2026. Free month applies after 3 consecutive paid months.</p>
+        </div>
+        <script>
+          (function () {
+            var offer = document.querySelector(".membership-offer");
+            if (offer && Date.now() >= Date.parse(offer.getAttribute("data-offer-ends"))) offer.hidden = true;
+          })();
+        </script>
+        <p class="terms">3 - Month minimum; 10% off additional sim rental; price reflects per month; tax not included; 2hrs max per day; Hours must be used within the 30 days of your monthly cycle; no Rollover; Must give 15 days notice to cancel.</p>
+        <p>Memberships are billed monthly to a card on file.</p>
         <div class="price-grid cols-4">
         <article class="price-card">
           <h3>2 Hours Per Month</h3>
@@ -116,6 +127,48 @@
           <p>Price reflects per month</p>
         </article>
         </div>
+        <section id="membership-request">
+          <h2>Request a Membership</h2>
+          <p>Fill this out and Filindo will contact you personally to set up your membership.</p>
+          <form class="inquiry" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="d3996416-0401-4f02-b61e-a12fb7884d0d">
+            <input type="hidden" name="subject" value="Simulator Membership Request">
+            <input type="hidden" name="from_name" value="Go Golf website">
+            <input type="checkbox" name="botcheck" class="botcheck" tabindex="-1" autocomplete="off">
+            <input type="hidden" name="redirect" value="https://www.gogolfsj.com/thank-you/">
+            <div>
+              <label for="membership-name">Name</label>
+              <input id="membership-name" name="name" type="text" required autocomplete="name">
+            </div>
+            <div>
+              <label for="membership-email">Email</label>
+              <input id="membership-email" name="email" type="email" required autocomplete="email">
+            </div>
+            <div>
+              <label for="membership-phone">Phone</label>
+              <input id="membership-phone" name="phone" type="tel" required autocomplete="tel">
+            </div>
+            <div>
+              <label for="membership-plan">Plan</label>
+              <select id="membership-plan" name="plan" required>
+                <option value="">Select a plan</option>
+                <option>2 Hours Per Month ($50)</option>
+                <option>5 Hours Per Month ($100)</option>
+                <option>12 Hours Per Month ($200)</option>
+                <option>Unlimited Per Month ($400)</option>
+              </select>
+            </div>
+            <div>
+              <label for="membership-start">Preferred start date <span class="fine">(optional)</span></label>
+              <input id="membership-start" name="start_date" type="date">
+            </div>
+            <div>
+              <label for="membership-notes">Notes <span class="fine">(optional)</span></label>
+              <textarea id="membership-notes" name="notes"></textarea>
+            </div>
+            <button class="btn" type="submit">Send Request</button>
+          </form>
+        </section>
         <h2>Simulator Package</h2>
         <p class="terms">3 Month expiration from date of purchase; 10% off additional sim rental; tax not included; no rollover</p>
         <div class="price-grid cols-3">

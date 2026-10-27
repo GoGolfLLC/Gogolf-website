@@ -17,7 +17,6 @@ ALLOWED_EXTERNAL = {
     "https://app.acuityscheduling.com/schedule.php?owner=14209514&appointmentType=99723746",
     "https://app.acuityscheduling.com/schedule.php?owner=14209514&appointmentType=4053155",
     "https://app.acuityscheduling.com/schedule.php?owner=14209514&appointmentType=4053164",
-    "https://app.acuityscheduling.com/catalog.php?owner=14209514&category=Subscription",
     "https://squareup.com/gift/X5RPRSP5SG808/order",
     "https://square.link/u/N4MWJ485",
     "https://clubchampion.com",
@@ -42,7 +41,6 @@ REQUIRED = [
     "https://app.acuityscheduling.com/schedule.php?owner=14209514&appointmentType=99723746",
     "https://app.acuityscheduling.com/schedule.php?owner=14209514&appointmentType=4053155",
     "https://app.acuityscheduling.com/schedule.php?owner=14209514&appointmentType=4053164",
-    "https://app.acuityscheduling.com/catalog.php?owner=14209514&category=Subscription",
     "https://squareup.com/gift/X5RPRSP5SG808/order",
     "https://square.link/u/N4MWJ485",
     "https://clubchampion.com",
@@ -123,11 +121,17 @@ def main():
                 errors.append(f"{path.relative_to(ROOT)} contains forbidden {snippet!r}")
         form_count = text.lower().count("<form")
         if form_count:
-            allowed_form = (
-                path.as_posix().endswith("contact-us/index.html")
-                and form_count == 1
+            web3 = (
+                form_count == 1
                 and 'action="https://api.web3forms.com/submit"' in text
                 and 'method="POST"' in text
+            )
+            allowed_form = web3 and (
+                path.as_posix().endswith("contact-us/index.html")
+                or (
+                    path.as_posix().endswith("simulator-rental/index.html")
+                    and 'value="Simulator Membership Request"' in text
+                )
             )
             if not allowed_form:
                 errors.append(f"{path.relative_to(ROOT)} has a form that is not the Web3Forms inquiry")
