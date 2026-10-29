@@ -3,6 +3,8 @@
 /club-fitting-1/   /club-fitting    301
 /instructors-1     /instructors     301
 /instructors-1/    /instructors     301
+/junior-series     /junior-golf     301
+/junior-series/    /junior-golf     301
 
 # The online store was disabled. Every /ols/ URL served the homepage and had no product content.
 /ols/products                        /    301
