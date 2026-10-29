@@ -36,8 +36,7 @@ Open http://localhost:8000 . Page addresses look like http://localhost:8000/eval
 | Club Fitting | `/club-fitting` | `/club-fitting-1` |
 | Leagues | `/leagues` | |
 | Fitness | `/fitness` | |
-| Junior Golf | `/junior-golf` | |
-| Junior Series | `/junior-series` | |
+| Junior Golf | `/junior-golf` | `/junior-series` redirects here |
 | 2029 PGA Championship | `/2029-pga-championship` | |
 | Instructors | `/instructors` | `/instructors-1` |
 | eGift Card | `/egift-card` | |
