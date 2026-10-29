@@ -571,6 +571,17 @@ a:hover {
   color: var(--white);
 }
 
+button.btn:disabled {
+  border: 2px solid #9aafbf;
+  font: inherit;
+  font-weight: 700;
+  background: #eef3f6;
+  color: var(--navy);
+  cursor: not-allowed;
+  max-width: 100%;
+  white-space: normal;
+}
+
 .feature .btn,
 .book-banner .btn {
   background: var(--white);
