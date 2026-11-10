@@ -1471,6 +1471,11 @@ body.faq-chat-open {
   margin: 0 0 0.9rem;
 }
 
+.merch-photo-fit {
+  object-fit: contain;
+  background: #fff;
+}
+
 .merch-card h3 {
   font-size: 1.2rem;
   line-height: 1.3;
