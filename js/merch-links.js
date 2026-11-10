@@ -9,8 +9,6 @@ var MERCH_LINKS = {
   "womens-puma-polo": "",
   "unisex-puma-hoodie": "",
   "microfiber-towel": "",
-  "chrome-soft-balls": "",
-  "triple-track-balls": "",
   "chrome-super-soft-balls": "",
   "golf-glove": "",
   "birtee": "",
