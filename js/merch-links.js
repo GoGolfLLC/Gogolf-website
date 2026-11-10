@@ -1,5 +1,5 @@
 /* Square checkout links for the Merchandise page.
-   Fill in a URL for an item id. Leave it as "" to show "Available in the shop".
+   Fill in a URL for an item id. Leave it as "" to show "Available at the front desk".
    To change a photo, replace that card's img src with a file in /images/merch/. */
 var MERCH_LINKS = {
   "side-logo-hat": "",
@@ -32,7 +32,7 @@ function applyMerchLinks() {
     var url = String(MERCH_LINKS[id] || "").trim();
     slot.textContent = "";
     if (!url || url.indexOf("https://") !== 0) {
-      slot.textContent = "Available in the shop";
+      slot.textContent = "Available at the front desk";
       continue;
     }
     var link = document.createElement("a");
