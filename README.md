@@ -40,6 +40,7 @@ Open http://localhost:8000 . Page addresses look like http://localhost:8000/eval
 | 2029 PGA Championship | `/2029-pga-championship` | |
 | Instructors | `/instructors` | `/instructors-1` |
 | eGift Card | `/egift-card` | |
+| Merchandise | `/merchandise` | |
 | Contact Us | `/contact-us` | |
 | Cancellations | `/cancellations` | |
 | Corporate Memberships | `/corporate-memberships` | |
