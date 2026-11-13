@@ -1188,6 +1188,45 @@ button.btn:disabled {
   }
 }
 
+.week h4 {
+  font-size: 1.15rem;
+  margin: 0.35rem 0 0.75rem;
+}
+
+.week-table th:nth-child(1),
+.week-table td:nth-child(1) {
+  width: 28%;
+}
+
+.week-table th:nth-child(2),
+.week-table td:nth-child(2),
+.week-table th:nth-child(3),
+.week-table td:nth-child(3),
+.week-table th:nth-child(4),
+.week-table td:nth-child(4) {
+  width: 24%;
+}
+
+.week .speed-table {
+  margin-bottom: 0.65rem;
+}
+
+.week-note {
+  margin: 0 0 0.45rem;
+}
+
+.past-weeks {
+  margin: 0.25rem 0 1.25rem;
+}
+
+.past-weeks summary {
+  font-weight: 700;
+  cursor: pointer;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
 .goal-grid {
   display: grid;
   gap: 0.75rem;
